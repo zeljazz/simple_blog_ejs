@@ -1,0 +1,40 @@
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+body{
+    background:#eeeeee ;
+}
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+    letter-spacing: 5px;
+    background:#edc988; 
+}
+.navbar-nav  li a:hover {
+    color: #132743s !important;
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #132743;
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 12px;
+  color: #fff;
+}

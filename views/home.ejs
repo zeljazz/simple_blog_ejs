@@ -1,0 +1,17 @@
+<%-include('partials/header')-%>
+
+<h1>home</h1>
+<p><%= StartingContent %> <p>
+
+
+<% newPost.forEach( function(post) {%>
+<%	//const url =post.postTitle %>
+
+<h3><%=	post.postTitle %> </h3>
+<p><%=	post.postArea.substring(0, 80)  %>...
+<a href="/posts/<%=post.postTitle%>">Read More</a>
+ </p>
+<% }) %>
+				
+
+<%-include('partials/footer')-%>
